@@ -18,7 +18,7 @@ public partial class Account_Login : System.Web.UI.Page
     }
     protected void login_click(object sender, EventArgs e)
     {
-        SqlConnection cn = new SqlConnection("server=localhost\\database1;integrated security=true;initial catalog=cloud");
+        SqlConnection cn = new SqlConnection(ConfigurationManager.AppSettings["SQLSERVER_CONNECTION_STRING"]);
         cn.Open();
 
         SqlCommand sq = new SqlCommand("login_auth", cn);
