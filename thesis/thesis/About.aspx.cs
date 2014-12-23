@@ -14,7 +14,7 @@ using System.Drawing.Imaging;
 
 public partial class About : System.Web.UI.Page
 {
-    SqlConnection cn = new SqlConnection("server=localhost\\database1;integrated security=true;initial catalog=cloud");
+    SqlConnection cn = new SqlConnection("Server=597f3a08-c665-4427-95bd-a409006df944.sqlserver.sequelizer.com;Database=db597f3a08c665442795bda409006df944;User ID=cqpzrlpskabvtqyq;Password=tb8QvJjmVLkqLGemi6wMiLvsTxGj8hCbBi7o3hDDCyjdqteY6XQWrsDQNP56banM;");
     int id = 0;
     int size = 0;
     int piece_size = 0;
