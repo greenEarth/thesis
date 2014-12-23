@@ -12,7 +12,7 @@
       <tr>
        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:ImageButton ID="Download_files_btn" runat="server" Height="31px" 
-            ImageUrl="../Images/Download.png" Width="36px" ToolTip="Download Files" 
+            ImageUrl="../thesis/Images/Download.png" Width="36px" ToolTip="Download Files" 
             onclick="Download_files_btn_Click" /></td>
         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:ImageButton 
