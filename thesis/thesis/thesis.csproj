@@ -59,13 +59,116 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="ACP_PDF 2_file_document.png" />
+    <Content Include="Bin\AjaxControlToolkit.dll" />
+    <Content Include="Bin\AjaxMin.dll" />
+    <Content Include="Bin\ar\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\cs\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\de\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\de\Microsoft.Data.Edm.resources.dll" />
+    <Content Include="Bin\de\Microsoft.Data.OData.resources.dll" />
+    <Content Include="Bin\de\System.Spatial.resources.dll" />
+    <Content Include="Bin\es\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\es\Microsoft.Data.Edm.resources.dll" />
+    <Content Include="Bin\es\Microsoft.Data.OData.resources.dll" />
+    <Content Include="Bin\es\System.Spatial.resources.dll" />
+    <Content Include="Bin\fr\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\fr\Microsoft.Data.Edm.resources.dll" />
+    <Content Include="Bin\fr\Microsoft.Data.OData.resources.dll" />
+    <Content Include="Bin\fr\System.Spatial.resources.dll" />
+    <Content Include="Bin\he\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\hi\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\HtmlAgilityPack.dll" />
+    <Content Include="Bin\HtmlAgilityPack.pdb" />
+    <Content Include="Bin\HtmlAgilityPack.xml" />
+    <Content Include="Bin\it\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\it\Microsoft.Data.Edm.resources.dll" />
+    <Content Include="Bin\it\Microsoft.Data.OData.resources.dll" />
+    <Content Include="Bin\it\System.Spatial.resources.dll" />
+    <Content Include="Bin\ja\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\ja\Microsoft.Data.Edm.resources.dll" />
+    <Content Include="Bin\ja\Microsoft.Data.OData.resources.dll" />
+    <Content Include="Bin\ja\System.Spatial.resources.dll" />
+    <Content Include="Bin\ko\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\ko\Microsoft.Data.Edm.resources.dll" />
+    <Content Include="Bin\ko\Microsoft.Data.OData.resources.dll" />
+    <Content Include="Bin\ko\System.Spatial.resources.dll" />
+    <Content Include="Bin\Microsoft.Data.Edm.dll" />
+    <Content Include="Bin\Microsoft.Data.Edm.xml" />
+    <Content Include="Bin\Microsoft.Data.OData.dll" />
+    <Content Include="Bin\Microsoft.Data.OData.xml" />
+    <Content Include="Bin\Microsoft.Web.XmlTransform.dll" />
+    <Content Include="Bin\Microsoft.WindowsAzure.Configuration.dll" />
+    <Content Include="Bin\Microsoft.WindowsAzure.Storage.dll" />
+    <Content Include="Bin\Microsoft.WindowsAzure.Storage.pdb" />
+    <Content Include="Bin\Microsoft.WindowsAzure.Storage.xml" />
+    <Content Include="Bin\nl\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\NuGet.Core.dll" />
+    <Content Include="Bin\pl\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\pt\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\ru\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\ru\Microsoft.Data.Edm.resources.dll" />
+    <Content Include="Bin\ru\Microsoft.Data.OData.resources.dll" />
+    <Content Include="Bin\ru\System.Spatial.resources.dll" />
+    <Content Include="Bin\System.Spatial.dll" />
+    <Content Include="Bin\System.Spatial.xml" />
+    <Content Include="Bin\thesis.dll" />
+    <Content Include="Bin\thesis.pdb" />
+    <Content Include="Bin\tr-TR\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\zh-CHS\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\zh-CHT\AjaxControlToolkit.resources.dll" />
+    <Content Include="Bin\zh-Hans\Microsoft.Data.Edm.resources.dll" />
+    <Content Include="Bin\zh-Hans\Microsoft.Data.OData.resources.dll" />
+    <Content Include="Bin\zh-Hans\System.Spatial.resources.dll" />
+    <Content Include="Bin\zh-Hant\Microsoft.Data.Edm.resources.dll" />
+    <Content Include="Bin\zh-Hant\Microsoft.Data.OData.resources.dll" />
+    <Content Include="Bin\zh-Hant\System.Spatial.resources.dll" />
+    <Content Include="DecryptedFiles\complete_report_final.docx1.bmp" />
+    <Content Include="DecryptedFiles\complete_report_final.docx2.bmp" />
+    <Content Include="DecryptedFiles\complete_report_final.docx3.bmp" />
+    <Content Include="DecryptedFiles\complete_report_final.docx4.bmp" />
+    <Content Include="DecryptedFiles\complete_report_final.docx5.bmp" />
+    <Content Include="DecryptedFiles\complete_report_final.docx6.bmp" />
+    <Content Include="DecryptedFiles\complete_report_final.docx7.bmp" />
+    <Content Include="DecryptedFiles\complete_report_final.docx8.bmp" />
+    <Content Include="DecryptedFiles\complete_report_final.docx9.bmp" />
+    <Content Include="doc.png" />
+    <Content Include="EncryptedFiles\ATT00001.txt1.bmp" />
+    <Content Include="EncryptedFiles\complete_report_final.docx1.bmp" />
+    <Content Include="EncryptedFiles\complete_report_final.docx2.bmp" />
+    <Content Include="EncryptedFiles\complete_report_final.docx3.bmp" />
+    <Content Include="EncryptedFiles\complete_report_final.docx4.bmp" />
+    <Content Include="EncryptedFiles\complete_report_final.docx5.bmp" />
+    <Content Include="EncryptedFiles\complete_report_final.docx6.bmp" />
+    <Content Include="EncryptedFiles\complete_report_final.docx7.bmp" />
+    <Content Include="EncryptedFiles\complete_report_final.docx8.bmp" />
+    <Content Include="EncryptedFiles\complete_report_final.docx9.bmp" />
+    <Content Include="EncryptedFiles\vaishali.doc1.bmp" />
+    <Content Include="Files\ATT00001.txt" />
+    <Content Include="Files\latestPhoto.jpg" />
+    <Content Include="Images\Download.png" />
+    <Content Include="Images\Folder My Recent Documents.png" />
+    <Content Include="Images\sort_neutral_green.png" />
+    <Content Include="Images\Upload-icon.png" />
+    <Content Include="Jellyfish.jpg" />
+    <Content Include="obj\Debug\thesis.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\thesis.dll" />
+    <Content Include="obj\Debug\thesis.pdb" />
+    <Content Include="pdf_icon.png" />
+    <Content Include="ppt.png" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="test.aspx" />
+    <Content Include="thesis.Publish.xml" />
+    <Content Include="txt-3.png" />
+    <Content Include="unknown.png" />
+    <Content Include="upload_files.aspx" />
     <Content Include="Web.config" />
+    <Content Include="xls.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.cs">
@@ -103,6 +206,12 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Content Include="App_Code\BitReader.cs" />
+    <Content Include="App_Code\ID3v1.cs" />
+    <Content Include="App_Code\ID3v2.cs" />
+    <Content Include="App_Code\id3v2Frame.cs" />
+    <Content Include="App_Code\mp3info.cs" />
+    <Content Include="App_Code\MPEG.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -117,10 +226,21 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="upload_files.aspx.cs">
+      <DependentUpon>upload_files.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="aspnet_client\system_web\2_0_50727\" />
+    <Folder Include="aspnet_client\system_web\4_0_30319\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\TempPE\" />
     <Folder Include="Properties\" />
+    <Folder Include="temp\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />
@@ -135,6 +255,25 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <None Include="Bin\AjaxControlToolkit.dll.refresh" />
+    <None Include="Bin\AjaxMin.dll.refresh" />
+    <None Include="Bin\HtmlAgilityPack.dll.refresh" />
+    <None Include="Bin\Microsoft.Data.Edm.dll.refresh" />
+    <None Include="Bin\Microsoft.Data.OData.dll.refresh" />
+    <None Include="Bin\Microsoft.Web.XmlTransform.dll.refresh" />
+    <None Include="Bin\Microsoft.WindowsAzure.Configuration.dll.refresh" />
+    <None Include="Bin\Microsoft.WindowsAzure.Storage.dll.refresh" />
+    <None Include="Bin\NuGet.Core.dll.refresh" />
+    <None Include="Bin\System.Spatial.dll.refresh" />
+    <None Include="Files\complete_report_final.docx" />
+    <None Include="Files\vaishali.doc" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\thesis.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
