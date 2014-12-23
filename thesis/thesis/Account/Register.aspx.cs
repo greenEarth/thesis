@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Configuration;
 using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -46,7 +47,7 @@ public partial class Account_Register : System.Web.UI.Page
         //Response.Write(Session["verify"].ToString());
         if (captcha_code_text.Text == Session["verify"].ToString().ToUpper())
         {
-            SqlConnection cn = new SqlConnection("server=localhost\\database1;integrated security=true;initial catalog=cloud");
+            SqlConnection cn = new SqlConnection(ConfigurationManager.AppSettings["SQLSERVER_CONNECTION_STRING_ALIAS"]);
             cn.Open();
 
             SqlCommand sq = new SqlCommand("saving", cn);
