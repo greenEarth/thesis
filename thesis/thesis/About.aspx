@@ -12,28 +12,28 @@
       <tr>
        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:ImageButton ID="Download_files_btn" runat="server" Height="31px" 
-            ImageUrl="../thesis/Images/Download.png" Width="36px" ToolTip="Download Files" 
+            ImageUrl="~/Images/Download.png" Width="36px" ToolTip="Download Files" 
             onclick="Download_files_btn_Click" /></td>
         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:ImageButton 
             ID="upload_files_btn" runat="server" Height="38px" 
-            ImageUrl="Images/Upload-icon.png" Width="41px" ToolTip="Upload Files" 
+            ImageUrl="~/Images/Upload-icon.png" Width="41px" ToolTip="Upload Files" 
             onclick="upload_files_btn_Click" /></td>
         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:ImageButton ID="recent_files_btn" runat="server" Height="31px" 
-            ImageUrl="Images/Folder My Recent Documents.png" Width="41px" 
+            ImageUrl="~/Images/Folder My Recent Documents.png" Width="41px" 
             ToolTip="View Recent Files" onclick="recent_files_btn_Click" /></td>
         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:ImageButton ID="sort_name_btn" runat="server" Height="31px" 
-            ImageUrl="Images/sort_neutral_green.png" Width="35px" 
+            ImageUrl="~/Images/sort_neutral_green.png" Width="35px" 
             ToolTip="Sort By Name" onclick="sort_name_btn_Click" /></td>
         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:ImageButton ID="sort_size_btn" runat="server"  Height="31px" 
-            ImageUrl="Images/sort_neutral_green.png" Width="35px"
+            ImageUrl="~/Images/sort_neutral_green.png" Width="35px"
             ToolTip="Sort By Size" onclick="sort_size_btn_Click"/></td>
         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:ImageButton ID="sort_type_btn" runat="server"  Height="31px" 
-            ImageUrl="Images/sort_neutral_green.png" Width="35px"
+            ImageUrl="~/Images/sort_neutral_green.png" Width="35px"
             ToolTip="Sort By Type" onclick="sort_type_btn_Click" /></td>
         </tr>
        <tr > 
