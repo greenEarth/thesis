@@ -47,7 +47,7 @@ public partial class Account_Register : System.Web.UI.Page
         //Response.Write(Session["verify"].ToString());
         if (captcha_code_text.Text == Session["verify"].ToString().ToUpper())
         {
-            SqlConnection cn = new SqlConnection(ConfigurationManager.AppSettings["SQLSERVER_CONNECTION_STRING_ALIAS"]);
+            SqlConnection cn = new SqlConnection("Server=597f3a08-c665-4427-95bd-a409006df944.sqlserver.sequelizer.com;Database=db597f3a08c665442795bda409006df944;User ID=cqpzrlpskabvtqyq;Password=tb8QvJjmVLkqLGemi6wMiLvsTxGj8hCbBi7o3hDDCyjdqteY6XQWrsDQNP56banM;");
             cn.Open();
 
             SqlCommand sq = new SqlCommand("saving", cn);
