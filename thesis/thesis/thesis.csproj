@@ -206,6 +206,9 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="upload_files.aspx.designer.cs">
+      <DependentUpon>upload_files.aspx</DependentUpon>
+    </Compile>
     <Content Include="App_Code\BitReader.cs" />
     <Content Include="App_Code\ID3v1.cs" />
     <Content Include="App_Code\ID3v2.cs" />
@@ -228,9 +231,14 @@
     </Compile>
     <Compile Include="test.aspx.cs">
       <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
     </Compile>
     <Compile Include="upload_files.aspx.cs">
       <DependentUpon>upload_files.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
