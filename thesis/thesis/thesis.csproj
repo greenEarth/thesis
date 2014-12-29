@@ -124,8 +124,6 @@
     <Content Include="Bin\zh-Hant\Microsoft.Data.OData.resources.dll" />
     <Content Include="Bin\zh-Hant\System.Spatial.resources.dll" />
     <Content Include="doc.png" />
-    <Content Include="Files\ATT00001.txt" />
-    <Content Include="Files\latestPhoto.jpg" />
     <Content Include="Images\Download.png" />
     <Content Include="Images\Folder My Recent Documents.png" />
     <Content Include="Images\sort_neutral_green.png" />
@@ -258,8 +256,6 @@
     <None Include="Bin\Microsoft.WindowsAzure.Storage.dll.refresh" />
     <None Include="Bin\NuGet.Core.dll.refresh" />
     <None Include="Bin\System.Spatial.dll.refresh" />
-    <None Include="Files\complete_report_final.docx" />
-    <None Include="Files\vaishali.doc" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="obj\Debug\thesis.csprojResolveAssemblyReference.cache" />
     <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
