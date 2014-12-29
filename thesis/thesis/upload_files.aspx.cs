@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.IO;
@@ -270,7 +271,7 @@ public partial class upload_files : System.Web.UI.Page
 
     public void save_into_table(byte[] c , int count)
     {
-        SqlConnection cn = new SqlConnection("server=localhost\\database1;integrated security=true;initial catalog=cloud");
+        SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["cloudConnectionString"].ConnectionString);
         SqlCommand sq = new SqlCommand("save_file", cn);
         sq.CommandType = CommandType.StoredProcedure;
 

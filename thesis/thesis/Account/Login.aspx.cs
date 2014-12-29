@@ -19,7 +19,7 @@ public partial class Account_Login : System.Web.UI.Page
     }
     protected void login_click(object sender, EventArgs e)
     {
-        SqlConnection cn = new SqlConnection("Server=597f3a08-c665-4427-95bd-a409006df944.sqlserver.sequelizer.com;Database=db597f3a08c665442795bda409006df944;User ID=cqpzrlpskabvtqyq;Password=tb8QvJjmVLkqLGemi6wMiLvsTxGj8hCbBi7o3hDDCyjdqteY6XQWrsDQNP56banM;");
+        SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["cloudConnectionString"].ConnectionString);
         cn.Open();
 
         SqlCommand sq = new SqlCommand("login_auth", cn);
