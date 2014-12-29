@@ -410,7 +410,7 @@ public partial class About : System.Web.UI.Page
     public void DeleteFiles(string File_id)
     {
         int id = Convert.ToInt32(File_id);
-        SqlConnection cn = new SqlConnection("server=localhost\\database1;integrated security=true;initial catalog=cloud");
+        SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["cloudConnectionString"].ConnectionString);
         SqlCommand sq = new SqlCommand("Delete_Files", cn);
         sq.CommandType = CommandType.StoredProcedure;
 
@@ -1182,7 +1182,7 @@ public partial class About : System.Web.UI.Page
    
     public void save_into_table(byte[] c, int count)
     {
-        SqlConnection cn = new SqlConnection("server=localhost\\database1;integrated security=true;initial catalog=cloud");
+        SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["cloudConnectionString"].ConnectionString);
         SqlCommand sq = new SqlCommand("save_file", cn);
         sq.CommandType = CommandType.StoredProcedure;
 
