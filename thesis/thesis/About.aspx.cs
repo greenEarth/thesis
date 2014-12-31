@@ -1005,6 +1005,7 @@ public partial class About : System.Web.UI.Page
         {
             // //FileUpload1.SaveAs(Server.MapPath(@"~/temp/") + FileUpload1.FileName);
             // //string image_ext = System.IO.Path.GetExtension(FileUpload1.FileName);
+            Console.Write("start the process");
             fileext = System.IO.Path.GetExtension(FileUpload2. FileName);
             try
             {
@@ -1169,7 +1170,7 @@ public partial class About : System.Web.UI.Page
                     return;
                 }
             }
-            Console.Write("end encrypt");
+            
         }
 
         image1.Save(Server.MapPath("EncryptedFiles/") + filename1 + count + ".bmp", ImageFormat.MemoryBmp);
@@ -1179,6 +1180,7 @@ public partial class About : System.Web.UI.Page
         byte[] imageByte1 = (byte[])imageConverter1.ConvertTo(image11, typeof(byte[]));
         save_into_table(imageByte1, count);
         image1.Dispose();
+        Console.Write("end encrypt");
 
     }
    
