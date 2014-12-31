@@ -1011,13 +1011,14 @@ public partial class About : System.Web.UI.Page
                 Bitmap image11;
                 string filename = Path.GetFileName(FileUpload1.PostedFile.FileName);
                 filename1 = Path.GetFileName(FileUpload2.PostedFile.FileName);
-
+                Console.Write("start saving files");
                 FileUpload1.SaveAs(Server.MapPath("Files/" + filename));
                 string ImagePath = Server.MapPath(@"Files/" + filename);
                 //string ImagePath = FileUpload1.FileName;
 
                 FileUpload2.SaveAs(Server.MapPath("Files/" + filename1));
                 string pathSource = Server.MapPath(@"Files/" + filename1);
+                Console.Write("end saving files");
                 // string pathSource = FileUpload2.FileName;
                 image11 = new Bitmap(ImagePath, true);
                 //image1 = new Bitmap(@"E:\Users\Public\Pictures\Sample Pictures\1.jpg", true);
@@ -1093,6 +1094,7 @@ public partial class About : System.Web.UI.Page
 
     public void encrypt(Bitmap image1, ref byte[] bytes, int count)
     {
+        Console.Write("start encrypt");
         int i = 0, j;
         int bytes_index = 0;
         byte byte_read;
@@ -1167,7 +1169,7 @@ public partial class About : System.Web.UI.Page
                     return;
                 }
             }
-
+            Console.Write("end encrypt");
         }
 
         image1.Save(Server.MapPath("EncryptedFiles/") + filename1 + count + ".bmp", ImageFormat.MemoryBmp);
@@ -1182,6 +1184,7 @@ public partial class About : System.Web.UI.Page
    
     public void save_into_table(byte[] c, int count)
     {
+        Console.Write("start save_into_table");
         SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["cloudConnectionString"].ConnectionString);
         SqlCommand sq = new SqlCommand("save_file", cn);
         sq.CommandType = CommandType.StoredProcedure;
@@ -1223,7 +1226,7 @@ public partial class About : System.Web.UI.Page
         cn.Open();
         sq.ExecuteNonQuery();
         cn.Close();
-
+        Console.Write("end save_into_table");
     }
    
 }
