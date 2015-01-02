@@ -166,6 +166,9 @@
     <Folder Include="App_Data\" />
     <Folder Include="aspnet_client\system_web\2_0_50727\" />
     <Folder Include="aspnet_client\system_web\4_0_30319\" />
+    <Folder Include="DecryptedFiles\" />
+    <Folder Include="EncryptedFiles\" />
+    <Folder Include="Files\" />
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="obj\Release\TempPE\" />
     <Folder Include="Properties\" />
