@@ -187,6 +187,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="log4net.config" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="obj\Debug\thesis.csprojResolveAssemblyReference.cache" />
     <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
