@@ -64,7 +64,10 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="ACP_PDF 2_file_document.png" />
+    <Content Include="DecryptedFiles\test.txt" />
     <Content Include="doc.png" />
+    <Content Include="EncryptedFiles\test.txt" />
+    <Content Include="Files\test.txt" />
     <Content Include="Images\Download.png" />
     <Content Include="Images\Folder My Recent Documents.png" />
     <Content Include="Images\sort_neutral_green.png" />
@@ -166,9 +169,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="aspnet_client\system_web\2_0_50727\" />
     <Folder Include="aspnet_client\system_web\4_0_30319\" />
-    <Folder Include="DecryptedFiles\" />
-    <Folder Include="EncryptedFiles\" />
-    <Folder Include="Files\" />
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="obj\Release\TempPE\" />
     <Folder Include="Properties\" />
