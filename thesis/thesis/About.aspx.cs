@@ -1088,7 +1088,7 @@ public partial class About : System.Web.UI.Page
             }
             catch (Exception ex)
             {
-                ScriptManager.RegisterClientScriptBlock(Page, Page.GetType(), Guid.NewGuid().ToString(), "alert('Unable to upload file. See message ->" + ex.ToString() + "')", true);
+                ScriptManager.RegisterClientScriptBlock(Page, Page.GetType(), Guid.NewGuid().ToString(), "alert('Unable to upload file. See message :" + ex.ToString() + "')", true);
                
                 //Response.Write(ex.Message);
             }
