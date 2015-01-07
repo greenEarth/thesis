@@ -57,15 +57,17 @@ public partial class About : System.Web.UI.Page
 
     public void mail_message()
     {
+        String email = "sachin.heyfriends@gmail.com";
         SqlCommand cm3 = new SqlCommand("select e_mail from user_info where username='"+Session["user_name"].ToString()+"'", cn);
             cn.Open();
-      
-            DataSet ds3 = new DataSet();
-              SqlDataAdapter da3 = new SqlDataAdapter(cm3);
-           cn.Close();
-           da3.Fill(ds3, "userid");
 
-        MailMessage mail_message = new MailMessage("harishnagar123@gmail.com", "to_text.Text");
+            SqlDataReader reader = cm3.ExecuteReader();
+            while(reader.Read()) {
+                email = reader.GetString(0);
+            }
+           cn.Close();
+
+        MailMessage mail_message = new MailMessage("stagano4bit@gmail.com", email);
         mail_message.Subject = "6 Digit Secret Password ";//Session["random_digit"].ToString();
         mail_message.Body = "This Mail is auto generated.<br/> Your 6 digit secret password for downloading your file is <br/>"+counter_no.ToString();
         mail_message.IsBodyHtml = true;
@@ -77,7 +79,7 @@ public partial class About : System.Web.UI.Page
         //    mail_message.Attachments.Add(att);
         //}
         SmtpClient smpt = new SmtpClient("smtp.gmail.com", 587);
-        NetworkCredential net_cred = new NetworkCredential("harishnagar123@gmail.com","*********");
+        NetworkCredential net_cred = new NetworkCredential("stagano4bit@gmail.com","hello@1234");
         smpt.EnableSsl = true;
         smpt.Credentials = net_cred;
         smpt.Send(mail_message);
@@ -242,7 +244,7 @@ public partial class About : System.Web.UI.Page
         name = b.Attributes["Text"];
         random_code();
        
-        //mail_message();
+        mail_message();
        
         
         //throw new NotImplementedException();

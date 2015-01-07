@@ -199,9 +199,9 @@ public partial class test : System.Web.UI.Page
         try
         {
             ImageButton b = sender as ImageButton;
-            
-                if (TextBox1.Text == "123456")//Session["random_digit"].ToString())
-               {
+
+            if (TextBox1.Text == Session["random_digit"].ToString())
+            {
                     decrypt();
             //        //string id = b.Attributes["ID"];
             //        //name = b.Attributes["Text"];

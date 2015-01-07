@@ -36,6 +36,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Bin\AjaxControlToolkit.dll</HintPath>
     </Reference>
+    <Reference Include="AjaxMin, Version=4.97.4951.28478, Culture=neutral, PublicKeyToken=21ef50ce11b5d80f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\AjaxMin.dll</HintPath>
+    </Reference>
     <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Bin\log4net.dll</HintPath>
