@@ -30,7 +30,7 @@ public partial class Account_ForgotPassword : System.Web.UI.Page
     protected void emailExistsOrNot(object sender, ServerValidateEventArgs args)
     {
 
-        SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["localDB"].ConnectionString);
+        SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["cloudConnectionString"].ConnectionString);
         SqlCommand cm3 = new SqlCommand("select username, password from user_info where e_mail='" + args.Value + "'", cn);
         cn.Open();
 
@@ -52,7 +52,7 @@ public partial class Account_ForgotPassword : System.Web.UI.Page
         if (!this.Page.IsValid) {
             return;
         }
-        SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["localDB"].ConnectionString);
+        SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["cloudConnectionString"].ConnectionString);
         SqlCommand cm3 = new SqlCommand("select username, password from user_info where e_mail='" + email.Text + "'", cn);
         cn.Open();
 
