@@ -41,13 +41,32 @@ public partial class Account_Register : System.Web.UI.Page
         //Response.Redirect(continueUrl);
     }
 
+    protected void userAlreadyExists(object sender, ServerValidateEventArgs args) {
+
+        SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["localDB"].ConnectionString);
+        SqlCommand cm3 = new SqlCommand("select * from user_info where username='" + args.Value + "'", cn);
+        cn.Open();
+
+        SqlDataReader reader = cm3.ExecuteReader();
+        while (reader.Read())
+        {
+            if (reader.FieldCount != 0)
+                args.IsValid = false;
+                
+        }
+        cn.Close();        
+    }
 
     protected void CreateUserButton_Click(object sender, EventArgs e)
     {
+        this.Page.Validate();
+        if (!this.Page.IsValid) {
+            return;
+        }
         //Response.Write(Session["verify"].ToString());
         if (captcha_code_text.Text == Session["verify"].ToString().ToUpper())
         {
-            SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["cloudConnectionString"].ConnectionString);
+            SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["localDB"].ConnectionString);
             cn.Open();
 
             SqlCommand sq = new SqlCommand("saving", cn);

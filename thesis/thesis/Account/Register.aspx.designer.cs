@@ -57,6 +57,15 @@ public partial class Account_Register {
     protected global::System.Web.UI.WebControls.RequiredFieldValidator UserNameRequired;
     
     /// <summary>
+    /// UserNameAlreadyExists control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.CustomValidator UserNameAlreadyExists;
+    
+    /// <summary>
     /// EmailLabel control.
     /// </summary>
     /// <remarks>

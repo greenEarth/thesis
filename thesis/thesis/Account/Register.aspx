@@ -27,6 +27,9 @@
                                 <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName" 
                                      CssClass="failureNotification" ErrorMessage="User Name is required." ToolTip="User Name is required." 
                                      ValidationGroup="RegisterUserValidationGroup">*</asp:RequiredFieldValidator>
+                                <asp:CustomValidator ID="UserNameAlreadyExists" runat="server" ValidateEmptyText="true" ControlToValidate="UserName" OnServerValidate="userAlreadyExists"
+                                    CssClass="failureNotification" ErrorMessage="User Name already exists." ToolTip="User Name already exists"
+                                    ValidationGroup="RegisterUserValidationGroup">*</asp:CustomValidator>
                             </p>
                             <p>
                                 <asp:Label ID="EmailLabel" runat="server" AssociatedControlID="Email">E-mail:</asp:Label>

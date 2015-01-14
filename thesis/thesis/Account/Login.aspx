@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Log In" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" Inherits="Account_Login" Codebehind="Login.aspx.cs" %>
+﻿<%@ Page Title="Log In" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="True" Inherits="Account_Login" Codebehind="Login.aspx.cs" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
@@ -39,10 +39,16 @@
                     <p>
                         <asp:Label ID="Label1" runat="server"></asp:Label>
                     </p>
+                    <p>
+                        <asp:HyperLink ID="forgotPassLink" runat="server" NavigateUrl="~/Account/ForgotPassword.aspx" EnableViewState="false">Forgot your password?</asp:HyperLink>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <!--<asp:HyperLink ID="changePassLink" runat="server" NavigateUrl="~/Account/ChangePassword.aspx" EnableViewState="false">Change password</asp:HyperLink>-->
+                    </p>                      
                 </fieldset>
                 <p class="submitButton">
                     <asp:Button ID="LoginButton" runat="server" OnClick="login_click" Text="Log In" ValidationGroup="LoginUserValidationGroup"/>
                 </p>
             </div>
-       
 </asp:Content>

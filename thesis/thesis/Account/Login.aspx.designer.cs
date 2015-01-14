@@ -111,6 +111,24 @@ public partial class Account_Login {
     protected global::System.Web.UI.WebControls.Label Label1;
     
     /// <summary>
+    /// forgotPassLink control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.HyperLink forgotPassLink;
+    
+    /// <summary>
+    /// changePassLink control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.HyperLink changePassLink;
+    
+    /// <summary>
     /// LoginButton control.
     /// </summary>
     /// <remarks>
