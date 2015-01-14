@@ -35,6 +35,7 @@ public partial class Account_ForgotPassword : System.Web.UI.Page
         cn.Open();
 
         SqlDataReader reader = cm3.ExecuteReader();
+        args.IsValid = false;
         while (reader.Read())
         {
             if (reader.FieldCount != 0)
@@ -42,7 +43,6 @@ public partial class Account_ForgotPassword : System.Web.UI.Page
                 
         }
         cn.Close();
-        args.IsValid = false;
     }
 
     protected void forgotPassButton_Click(object sender, EventArgs e)

@@ -2,3 +2,4 @@ C:\Users\GreenEarth\Documents\GitHub\thesis\thesis\thesis\bin\thesis.dll
 C:\Users\GreenEarth\Documents\GitHub\thesis\thesis\thesis\bin\thesis.pdb
 C:\Users\GreenEarth\Documents\GitHub\thesis\thesis\thesis\obj\Release\thesis.dll
 C:\Users\GreenEarth\Documents\GitHub\thesis\thesis\thesis\obj\Release\thesis.pdb
+C:\Users\GreenEarth\Documents\GitHub\thesis\thesis\thesis\obj\Release\thesis.csprojResolveAssemblyReference.cache
