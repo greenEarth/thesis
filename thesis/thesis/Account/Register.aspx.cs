@@ -43,7 +43,7 @@ public partial class Account_Register : System.Web.UI.Page
 
     protected void userAlreadyExists(object sender, ServerValidateEventArgs args) {
 
-        SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["localDB"].ConnectionString);
+        SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["cloudConnectionString"].ConnectionString);
         SqlCommand cm3 = new SqlCommand("select * from user_info where username='" + args.Value + "'", cn);
         cn.Open();
 
@@ -66,7 +66,7 @@ public partial class Account_Register : System.Web.UI.Page
         //Response.Write(Session["verify"].ToString());
         if (captcha_code_text.Text == Session["verify"].ToString().ToUpper())
         {
-            SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["localDB"].ConnectionString);
+            SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["cloudConnectionString"].ConnectionString);
             cn.Open();
 
             SqlCommand sq = new SqlCommand("saving", cn);
